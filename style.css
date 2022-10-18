@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arial';
+    padding: 0;
+    margin: 0;
+}
+.title{
+    padding: 5px;
+    background-color: yellow;
+}
+.title h4{
+    text-align: center;
+}
+
+/* Heading */
+.header {
+    background-color: #2ed573;
+    padding: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+/* Navigation Bar */ 
+.navbar {
+    display: flex;
+    background-color: #57606f;
+}
+.navbar a {
+    color: #ffffff;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+/* content area */ 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #a4b0be;
+}
+/* slide area */
+.side {
+    flex: 30%;
+    background-color: #70a1ff;
+    padding: 20px;
+}
+.fakemake {
+    height: 200px;
+    background-color: #a4b0be;
+    padding: 30px;
+}
+/* main area */ 
+.main {
+    flex: 70%;
+    padding: 20px;
+    background-color: #5352ed;
+    color: #fff;
+}
+.fakemake2 {
+    height: 400px;
+    padding: 30px;
+}
+.fakemake2 {
+    background-image: url('images/pic2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* Footer */
+.footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #ddd;
+    margin: 0;
+}
+.fakemake {
+    background-image: url("images/pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
